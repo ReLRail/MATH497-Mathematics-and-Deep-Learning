@@ -16,8 +16,8 @@ import matplotlib.pyplot as plt
 CUDA_VISIBLE_DEVICES = (2)
 # 定义是否使用GPU
 BATCH_SIZE = 256
-LR = 0.01
-EPOCH = 2
+LR = 0.001
+EPOCH = 120
 
 
 class VGG(nn.Module):
@@ -99,8 +99,7 @@ def getData():  # 定义数据预处理
         transforms.RandomResizedCrop(32),
         transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
-        transforms.Normalize(mean=[0.1307],
-                             std=[0.3081])])
+        transforms.Normalize(mean=[0.4914, 0.4822, 0.4465], std=[0.2023, 0.1994, 0.2010])])
     trainset = tv.datasets.CIFAR10(
         root='CIFAR10/',  # dataset存储路径
         train=True,  # True表示是train训练集，Flase表示测试集
