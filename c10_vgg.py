@@ -172,7 +172,7 @@ def train():
     plt.xlabel('epoch')
     plt.legend(['train', 'test'], loc='upper left')
     plt.show()
-    plt.savefig('256_vgg_loss.png')
+    plt.savefig(str(BATCH_SIZE) + '_vgg_loss.png')
     plt.plot(acces)
     plt.plot(test_acces)
     plt.title('model accuracy')
@@ -180,7 +180,7 @@ def train():
     plt.xlabel('epoch')
     plt.legend(['train', 'test'], loc='upper left')
     plt.show()
-    plt.savefig('256_vgg_acce.png')
+    plt.savefig(str(BATCH_SIZE) + '_vgg_acce.png')
     return net
 
 
@@ -203,4 +203,11 @@ def test(net, testdata):
 
 
 if __name__ == '__main__':
+    BATCH_SIZE = 32
+    net = train()
+    BATCH_SIZE = 64
+    net = train()
+    BATCH_SIZE = 128
+    net = train()
+    BATCH_SIZE = 256
     net = train()

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54eff19-b55d-447b-8b15-5e62b74c508a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/c10_vgg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team_c10_vgg.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/team_c10_vgg.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c10_vgg.py" beforeDir="false" afterPath="$PROJECT_DIR$/c10_vgg.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/c10_vgg.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="881">
-              <caret line="205" column="17" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
+              <caret line="212" column="17" selection-start-line="212" selection-start-column="17" selection-end-line="212" selection-end-column="17" />
               <folding>
                 <element signature="e#90#102#0" expanded="true" />
               </folding>
@@ -49,16 +48,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/c10_vgg.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/MATH497.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
@@ -116,12 +105,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563845095344</updated>
-      <workItem from="1563845097872" duration="2067000" />
+      <workItem from="1563845097872" duration="2224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2067000" />
+    <option name="totallyTimeSpent" value="2224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -177,7 +166,7 @@
     <entry file="file://$PROJECT_DIR$/c10_vgg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="881">
-          <caret line="205" column="17" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
+          <caret line="212" column="17" selection-start-line="212" selection-start-column="17" selection-end-line="212" selection-end-column="17" />
           <folding>
             <element signature="e#90#102#0" expanded="true" />
           </folding>
