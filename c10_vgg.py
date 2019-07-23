@@ -201,16 +201,16 @@ def test(net, testdata):
     return float(correct) / total, sum(los) / len(los)
 
 
-if __name__ == '__main__':
-    print("Set BATCH_SIZE to 32")
-    BATCH_SIZE = 32
-    net = train()
-    print("Set BATCH_SIZE to 64")
-    BATCH_SIZE = 64
-    net = train()
-    print("Set BATCH_SIZE to 128")
-    BATCH_SIZE = 128
-    net = train()
-    print("Set BATCH_SIZE to 256")
-    BATCH_SIZE = 256
-    net = train()
+
+print("Set BATCH_SIZE to 32")
+BATCH_SIZE = 32
+net = train()
+print("Set BATCH_SIZE to 64")
+BATCH_SIZE = 64
+net = train()
+print("Set BATCH_SIZE to 128")
+BATCH_SIZE = 128
+net = train()
+print("Set BATCH_SIZE to 256")
+BATCH_SIZE = 256
+net = train()
