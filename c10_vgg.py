@@ -17,7 +17,7 @@ CUDA_VISIBLE_DEVICES = (2)
 # 定义是否使用GPU
 BATCH_SIZE = 256
 LR = 0.01
-EPOCH = 3
+EPOCH = 2
 
 
 class VGG(nn.Module):
@@ -153,7 +153,7 @@ def train():
             acc_tmp.append(correct / total)
 
             train_loss += loss.item()
-            if step % 400 == 0:
+            if (step % int(5000 / BATCH_SIZE)) == 0:
                 print('Epoch:', epoch, '|Step:', step,
                       '|train loss:%.4f' % loss.data.item())
                 acc = test(net, testset_loader)
@@ -203,11 +203,15 @@ def test(net, testdata):
 
 
 if __name__ == '__main__':
+    print("Set BATCH_SIZE to 32")
     BATCH_SIZE = 32
     net = train()
+    print("Set BATCH_SIZE to 64")
     BATCH_SIZE = 64
     net = train()
+    print("Set BATCH_SIZE to 128")
     BATCH_SIZE = 128
     net = train()
+    print("Set BATCH_SIZE to 256")
     BATCH_SIZE = 256
     net = train()
