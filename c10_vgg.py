@@ -202,10 +202,10 @@ def test(net, testdata):
 
 
 
-print("Set BATCH_SIZE to 32")
+print('Set BATCH_SIZE to 32')
 BATCH_SIZE = 32
 net = train()
-print("Set BATCH_SIZE to 64")
+print('Set BATCH_SIZE to 64')
 BATCH_SIZE = 64
 net = train()
 print("Set BATCH_SIZE to 128")
