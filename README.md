@@ -1,5 +1,5 @@
 # A BATCH_SIZE wise conpersion for VGG and Wide-RasNet
-> Short blurb about what your product does.
+> This is joint developed with Liuziying Cheng Bingbing Cao and Junfeng Hu
 
 [![Build Status][travis-image]][travis-url]
 
