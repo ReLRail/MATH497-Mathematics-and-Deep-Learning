@@ -1,7 +1,15 @@
 # A BATCH_SIZE wise conpersion for VGG and Wide-RasNet
-> This is joint developed with Liuziying Cheng Bingbing Cao and Junfeng Hu
+> This is joint developed by Liuziying Cheng, Zhenghan Fang, Bingbing Cao and Junfeng Hu
 
 For the final project of MATHEMATICS AT PEKING UNIVERSITY a PKU-PSU joint proglam, we did a BATCH_SIZE wise conpersion for VGG and Wide-RasNet. To findout which BATCH_SIZE will be best for train model. We used BATCH_SIZE of 32 64 128 and 256.
+>VGG
+
+![](/img/vgg_train_loss.png)
+![](/img/vgg_test_loss.png)
+![](/img/vgg_train_acc.png)
+![](/img/vgg_test_acc.png)
+
+>Ras Net
 
 ![](/img/vgg_train_loss.png)
 ![](/img/vgg_test_loss.png)
@@ -11,6 +19,7 @@ For the final project of MATHEMATICS AT PEKING UNIVERSITY a PKU-PSU joint progla
 ## Installation
 
 OS X & Linux & Windows:
+
 Virtual Environments is recommended
 
 ```sh
@@ -22,18 +31,17 @@ pip install -r requirements.txt
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
+You can easily replace the model and batch size to see how your model perform.
 
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Liuziying Cheng   - [GitHub Link](https://github.com/nixiechennixiechen/)
+Zhenghan Fang     – [GitHub Link](https://github.com/ReLRail/) – relrailfang@gmail.com
+Bingbing Cao
+Junfeng Hu
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
 
 ## Contributing
 
