@@ -37,8 +37,11 @@ You can easily replace the model and batch size to see how your model perform.
 ## Meta
 
 Liuziying Cheng   - [GitHub Link](https://github.com/nixiechennixiechen/)
+
 Zhenghan Fang     – [GitHub Link](https://github.com/ReLRail/) – relrailfang@gmail.com
+
 Bingbing Cao
+
 Junfeng Hu
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
