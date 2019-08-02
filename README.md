@@ -3,7 +3,10 @@
 
 For the final project of MATHEMATICS AT PEKING UNIVERSITY a PKU-PSU joint proglam, we did a BATCH_SIZE wise conpersion for VGG and Wide-RasNet. To findout which BATCH_SIZE will be best for train model. We used BATCH_SIZE of 32 64 128 and 256.
 
-![](header.png)
+![](/img/vgg_train_loss.png)
+![](/img/vgg_test_loss.png)
+![](/img/vgg_train_acc.png)
+![](/img/vgg_test_acc.png)
 
 ## Installation
 
