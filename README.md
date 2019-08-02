@@ -1,7 +1,7 @@
 # A BATCH_SIZE wise conpersion for VGG and Wide-RasNet
 > This is joint developed with Liuziying Cheng Bingbing Cao and Junfeng Hu
 
-[![Build Status][travis-image]][https://travis-ci.org/ReLRail/MATH497.svg?branch=master]
+[![Build Status][travis-image]][travis-ci.org/ReLRail/MATH497.svg?branch=master]
 
 For the final project of MATHEMATICS AT PEKING UNIVERSITY a PKU-PSU joint proglam, we did a BATCH_SIZE wise conpersion for VGG and Wide-RasNet. To findout which BATCH_SIZE will be best for train model. We used BATCH_SIZE of 32 64 128 and 256.
 
