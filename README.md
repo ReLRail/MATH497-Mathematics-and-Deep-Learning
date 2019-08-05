@@ -39,7 +39,7 @@ You can easily replace the model and batch size to see how your model perform.
 
 ## Meta
 
-Liuziying Cheng   - [GitHub Link](https://github.com/nixiechennixiechen/)
+Liuziying Chen   - [GitHub Link](https://github.com/nixiechennixiechen/)
 
 Zhenghan Fang     – [GitHub Link](https://github.com/ReLRail/)
 
