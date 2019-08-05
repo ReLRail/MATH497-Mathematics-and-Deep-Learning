@@ -12,10 +12,10 @@ VGG
 
 Ras Net
 
-![](/img/vgg_train_loss.png)
-![](/img/vgg_test_loss.png)
-![](/img/vgg_train_acc.png)
-![](/img/vgg_test_acc.png)
+![](/img/ras_train_loss.png)
+![](/img/ras_test_loss.png)
+![](/img/ras_train_acc.png)
+![](/img/ras_test_acc.png)
 
 ## Installation
 
