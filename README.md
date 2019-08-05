@@ -41,7 +41,7 @@ You can easily replace the model and batch size to see how your model perform.
 
 Liuziying Cheng   - [GitHub Link](https://github.com/nixiechennixiechen/)
 
-Zhenghan Fang     – [GitHub Link](https://github.com/ReLRail/) – relrailfang@gmail.com
+Zhenghan Fang     – [GitHub Link](https://github.com/ReLRail/)
 
 Bingbing Cao
 
