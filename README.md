@@ -17,6 +17,8 @@ Ras Net
 ![](/img/ras_train_acc.png)
 ![](/img/ras_test_acc.png)
 
+It seams that 256 out perform other batch size. One thing interesting is that we find lower learning rate helps acc and loss. We lower the learning rate at 75 and 100. The change on 75 is most outstanding, while the change on 100 isn't much.
+
 ## Installation
 
 OS X & Linux & Windows:

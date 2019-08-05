@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jul 21 21:17:48 2019
-
-@author: Junfeng Hu
-"""
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
