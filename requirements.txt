@@ -1,6 +1,6 @@
 Keras==2.2.4
 torchvision==0.3.0
-numpy==1.16.1
+numpy==1.22.0
 matplotlib==2.2.2
 pandas==0.24.1
 torch==1.1.0.post2
